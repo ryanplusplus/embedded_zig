@@ -9,7 +9,7 @@ export fn main() void {
     while (true) {
         GPIOC.*.ODR ^= GPIO_PIN_13; // toggle
         var i: u32 = 0;
-        while (i < 1000000) {
+        while (i < 2000000) {
             asm volatile ("nop");
             i += 1;
         }

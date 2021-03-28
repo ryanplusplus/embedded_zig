@@ -3,3 +3,4 @@
 *.h
 *.map
 zig-cache
+build
